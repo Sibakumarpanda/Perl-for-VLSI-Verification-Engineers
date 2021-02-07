@@ -1,0 +1,18 @@
+/* Basic Level of Understanding about PERL /*
+
+PERL- Practical Extraction and Reporting Language
+C:\perl_test>perl -v   // To know whether perl is installed on ur machine and what is the version It will show 
+
+The very first line of your perl file must be
+#!/usr/bin/perl   // To indicate that it is perl and getting executed
+
+Its an interpreter, you can get the output immediately after run. Not like c-program.
+#This is the comment line in perl. Need to use hash symbol before the line
+#!/usr/bin/perl  // This is not a comment line
+
+Cat filename.pl  // It will show the whole program command prompt.
+
+To use mathematic function, we need to use as below.
+#!/usr/bin/perl
+use Math::Trig;
+ 
